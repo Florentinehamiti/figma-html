@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri Light', sans-serif;
+}
+
+.top-bar {
+    background-color: #162D4D;
+    color: white;
+}
+
+.bi-clock {
+    color: orange;
+}
+
+.main-header {
+    background: linear-gradient(135deg, #0C3246 30%, #FFFFFF 30%, #FFFFFF 100%);
+
+    /* background: linear-gradient(to right, #0D364B 20%,  white 40%); */
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.main-header .container{
+    height: 90px;
+}
+
+.bizan-logo h1, .bizan-logo {
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+
+.header-info {
+    display: flex;
+    color: gray;
+}
+
+.contact-info p {
+    color: grey;
+    font-size: 0.875rem;
+    margin: 0;
+    text-align: left;
+}
+
+.contact-info p strong, .nav-list li{
+    font-weight: bolder;
+    color: #0D364B;
+}
+.contact-info{
+    border-right: 1px solid rgb(187, 187, 187);
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #F0F3FC;
+    border-radius: 5px;
+}
+
+.bi-telephone-fill, .bi-envelope-fill, .bi-geo-alt-fill{
+    color: #FFA500;
+}
+
+.nav-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#nav-book{
+    color: #FFA500;
+}
+
+.bi-search, .bi-list{
+    color: white;
+}
+
+.svg-icon-container{
+    width: 40px;
+    border-radius: 100%;
+    background-color: #162D4D;
+}
